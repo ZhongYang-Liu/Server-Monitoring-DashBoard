@@ -70,6 +70,12 @@ Install packages
 pip install -r requirements.txt
 ```
 
+Install Token
+
+```bash
+line_bot.py
+```
+
 Run Flask
 
 ```bash
