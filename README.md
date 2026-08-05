@@ -39,7 +39,7 @@ The project aims to provide an intuitive interface for observing server resource
 ```
 server-monitoring-dashboard/
 │
-├── app.py
+├── main.py
 ├── monitor.py
 ├── requirements.txt
 ├── README.md
