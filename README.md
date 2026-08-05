@@ -50,9 +50,7 @@ server-monitoring-dashboard/
 ├── static/
 │      ├── css/
 │      ├── js/
-│      └── images/
-│
-└── screenshots/
+
 ```
 
 ---
