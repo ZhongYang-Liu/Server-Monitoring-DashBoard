@@ -85,7 +85,7 @@ This project was developed to practice backend development, RESTful API integrat
 ```
 server-monitoring-dashboard/
 │
-├── app.py
+├── main.py
 ├── monitor.py
 ├── requirements.txt
 ├── README.md
