@@ -1,6 +1,5 @@
 # Server-Monitoring-DashBoard
 A real-time server monitoring dashboard built with Python, Flask and Chart.js.
-<img width="1900" height="912" alt="image" src="https://github.com/user-attachments/assets/f1f622a6-76d2-48fe-aadb-d2820ba19b21" />
 ## 📌 Project Introduction
 
 This project is a real-time server monitoring dashboard developed using Python and Flask. It monitors CPU, Memory, and Disk usage, stores monitoring data, and displays real-time system information through an interactive web dashboard.
@@ -102,7 +101,7 @@ The dashboard updates every few seconds and displays:
 
 ### Dashboard
 
-(Add your dashboard screenshot here)
+<img width="1900" height="912" alt="image" src="https://github.com/user-attachments/assets/f1f622a6-76d2-48fe-aadb-d2820ba19b21" />
 
 ### Resource Usage Chart
 
