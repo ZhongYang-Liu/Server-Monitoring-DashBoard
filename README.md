@@ -103,7 +103,8 @@ The dashboard updates every few seconds and displays:
 
 ### Resource Usage Chart
 
-(Add your chart screenshot here)
+<img width="1462" height="810" alt="image" src="https://github.com/user-attachments/assets/f2e0b568-715e-4bbc-9238-2607a88ab5ef" />
+
 
 ---
 
