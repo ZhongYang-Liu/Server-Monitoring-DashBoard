@@ -1,85 +1,136 @@
-# Server-Monitoring-DashBoard
-A real-time server monitoring dashboard built with Python, Flask and Chart.js.
-## 📌 Project Introduction
+# 🖥 Server Monitoring Dashboard
 
-This project is a real-time server monitoring dashboard developed using Python and Flask. It monitors CPU, Memory, and Disk usage, stores monitoring data, and displays real-time system information through an interactive web dashboard.
-
-The project aims to provide an intuitive interface for observing server resource utilization and practicing backend development, data visualization, and system monitoring.
+A real-time server monitoring dashboard built with **Python**, **Flask**, and **Chart.js** for monitoring CPU, Memory, and Disk usage through an interactive web interface.
 
 ---
 
-## ✨ Features
+## 📸 Dashboard Preview
 
-- Real-time CPU usage monitoring
-- Real-time Memory usage monitoring
-- Real-time Disk usage monitoring
-- Automatic data refresh
-- Interactive dashboard using Chart.js
-- Resource usage history chart
-- Warning message when CPU usage exceeds threshold
-- Responsive web interface
+> **(Add your dashboard screenshot here)**
+
+```markdown
+![Dashboard](screenshots/dashboard.png)
+```
 
 ---
 
-## 🛠 Technologies
+# 📌 Project Introduction
+
+Server Monitoring Dashboard is a lightweight web-based monitoring system developed using **Python** and **Flask**.
+
+The application continuously collects system resource information, including **CPU**, **Memory**, and **Disk** usage, then visualizes the data on a real-time dashboard using **Chart.js**.
+
+This project was developed to practice backend development, RESTful API integration, and real-time data visualization while learning Python web development.
+
+---
+
+# ✨ Features
+
+- 📊 Real-time CPU usage monitoring
+- 💾 Real-time Memory usage monitoring
+- 🗄️ Real-time Disk usage monitoring
+- 📈 Dynamic charts powered by Chart.js
+- 🔄 Automatic data refresh
+- ⚠️ Warning notification when resource usage exceeds the threshold
+- 🌐 Responsive web dashboard
+- 📁 CSV data logging for monitoring records
+
+---
+
+# 🛠 Technologies
+
+### Backend
 
 - Python
 - Flask
 - psutil
 - pandas
-- Chart.js
+
+### Frontend
+
 - HTML5
 - CSS3
 - JavaScript
+- Chart.js
 
 ---
 
-## 📂 Project Structure
+# 🏗️ System Architecture
+
+```
++---------------------+
+|     Web Browser     |
++----------+----------+
+           |
+           v
++---------------------+
+|      Flask API      |
++----------+----------+
+           |
+           v
++---------------------+
+|      psutil         |
++----------+----------+
+           |
+           v
++---------------------+
+| CPU | Memory | Disk |
++---------------------+
+```
+
+---
+
+# 📂 Project Structure
 
 ```
 server-monitoring-dashboard/
 │
-├── main.py
+├── app.py
 ├── monitor.py
-├── line_bot.py
 ├── requirements.txt
 ├── README.md
+├── .gitignore
 │
 ├── templates/
-│      └── index.html
+│   └── index.html
 │
 ├── static/
-│      ├── css/
-│      ├── js/
-
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── dashboard.js
+│   └── images/
+│
+└── screenshots/
+    └── dashboard.png
 ```
 
 ---
 
-## 🚀 Installation
+# 🚀 Installation
 
-Clone the repository
+Clone this repository
 
 ```bash
-git clone https://github.com/YourGitHub/server-monitoring-dashboard.git
+git clone https://github.com/ZhongYang-Liu/Server-Monitoring-DashBoard.git
 ```
 
-Install packages
+Move into the project directory
+
+```bash
+cd Server-Monitoring-DashBoard
+```
+
+Install required packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Install Token
+Run the application
 
 ```bash
-line_bot.py
-```
-
-Run Flask
-
-```bash
-python main.py
+python app.py
 ```
 
 Open your browser
@@ -90,35 +141,72 @@ http://127.0.0.1:5000
 
 ---
 
-## 📖 Usage
+# 📖 Usage
 
-The dashboard updates every few seconds and displays:
+The dashboard automatically updates system resource information every few seconds.
+
+You can monitor:
 
 - CPU Usage
 - Memory Usage
 - Disk Usage
-- Resource Usage Chart
-- Warning Notification
+- Resource Usage Trend
+- Warning Notifications
 
 ---
 
-## 📸 Screenshots
+# 💡 Skills Demonstrated
 
-### Dashboard
+This project demonstrates the following technical skills:
 
-<img width="1900" height="912" alt="image" src="https://github.com/user-attachments/assets/f1f622a6-76d2-48fe-aadb-d2820ba19b21" />
-
-### Resource Usage Chart
-
-<img width="1462" height="810" alt="image" src="https://github.com/user-attachments/assets/f2e0b568-715e-4bbc-9238-2607a88ab5ef" />
-
+- Python programming
+- Flask web development
+- RESTful API integration
+- System resource monitoring using psutil
+- Data visualization with Chart.js
+- HTML / CSS / JavaScript integration
+- Real-time dashboard development
 
 ---
 
-## 👨‍💻 Author
+# 🚀 Future Improvements
 
-Zhong Yang Liu
+- User authentication
+- Historical data analysis
+- SQLite/MySQL database support
+- Docker deployment
+- Email alert notification
+- Dark / Light mode switch
+
+---
+
+# 📷 Screenshots
+
+## Dashboard
+
+> Add dashboard screenshot here
+
+---
+
+## Resource Usage Chart
+
+> Add chart screenshot here
+
+---
+
+## Terminal
+
+> Add terminal execution screenshot here
+
+---
+
+# 👨‍💻 Author
+
+**Alan Liu**
 
 Department of Computer Science and Information Engineering
 
 National Formosa University
+
+GitHub:
+https://github.com/ZhongYang-Liu
