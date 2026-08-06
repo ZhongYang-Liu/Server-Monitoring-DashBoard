@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Monitoring Dashboard</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>🖥 Server Monitoring Dashboard</h1>
+        <p>Real-Time Monitoring System Using Python & Flask</p>
+    </header>
+
+    <!-- Summary Cards -->
+    <div class="container">
+
+        <div id="cpu-card" class="card normal">
+            <h2>🖥 CPU Usage</h2>
+            <div id="cpu" class="value">0%</div>
+            <span>Status</span>
+        </div>
+
+        <div id="memory-card" class="card normal">
+            <h2>💾 Memory Usage</h2>
+            <div id="memory" class="value">0%</div>
+            <span>Status</span>
+        </div>
+
+        <div id="disk-card" class="card normal">
+            <h2>🗄 Disk Usage</h2>
+            <div id="disk" class="value">0%</div>
+            <span>Status</span>
+        </div>
+
+    </div>
+
+    <!-- Warning -->
+    <div id="warning" class="warning-message"></div>
+
+    <!-- Charts -->
+    <div class="chart-container">
+        <h2>Resource Usage Trend</h2>
+        <canvas id="cpuChart"></canvas>
+    </div>
+
+    <!-- Recent Records -->
+    <div class="table-container">
+
+        <h2>Recent Records</h2>
+
+        <table id="recordTable">
+
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>CPU (%)</th>
+                    <th>Memory (%)</th>
+                    <th>Disk (%)</th>
+                </tr>
+            </thead>
+
+            <tbody id="table-body">
+                <!-- JavaScript 自動新增資料 -->
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Last Updated :
+            <span id="update-time">--:--:--</span>
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+
+</body>
+</html>
