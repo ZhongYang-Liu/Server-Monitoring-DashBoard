@@ -96,14 +96,11 @@ server-monitoring-dashboard/
 │   └── index.html
 │
 ├── static/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── dashboard.js
-│   └── images/
-│
-└── screenshots/
-    └── dashboard.png
+    ├── css/
+    │   └── style.css
+    ├── js/
+        └── dashboard.js
+
 ```
 
 ---
