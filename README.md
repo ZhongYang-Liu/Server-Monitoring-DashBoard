@@ -70,7 +70,7 @@ This project was developed to practice backend development, RESTful API integrat
            |
            v
 +---------------------+
-|      psutil         |
+|        psutil       |
 +----------+----------+
            |
            v
@@ -267,7 +267,7 @@ Server Monitoring Dashboard 是一套使用 **Python** 與 **Flask** 開發的�
            |
            v
 +---------------------+
-|      psutil         |
+|        psutil       |
 +----------+----------+
            |
            v
