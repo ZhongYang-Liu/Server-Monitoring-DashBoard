@@ -179,7 +179,7 @@ This project demonstrates the following technical skills:
 
 # 👨‍💻 Author
 
-**Alan Liu**
+**Zhong Yang Liu**
 
 Department of Computer Science and Information Engineering
 
