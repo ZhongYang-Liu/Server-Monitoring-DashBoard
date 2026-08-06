@@ -188,6 +188,8 @@ National Formosa University
 GitHub:
 https://github.com/ZhongYang-Liu
 
+# 中文版本
+
 # 🖥 伺服器監控儀表板 (Server Monitoring Dashboard)
 
 一套基於 **Python**、**Flask** 與 **Chart.js** 開發的即時伺服器監控系統，透過互動式網頁介面監控 CPU、Memory 與 Disk 使用狀況。
