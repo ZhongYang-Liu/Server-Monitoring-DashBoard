@@ -176,27 +176,6 @@ This project demonstrates the following technical skills:
 - Email alert notification
 - Dark / Light mode switch
 
----
-
-# 📷 Screenshots
-
-## Dashboard
-
-> Add dashboard screenshot here
-
----
-
-## Resource Usage Chart
-
-> Add chart screenshot here
-
----
-
-## Terminal
-
-> Add terminal execution screenshot here
-
----
 
 # 👨‍💻 Author
 
