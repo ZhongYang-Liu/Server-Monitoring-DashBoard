@@ -161,7 +161,6 @@ This project demonstrates the following technical skills:
 - Flask web development
 - RESTful API integration
 - System resource monitoring using psutil
-- Data visualization with Chart.js
 - HTML / CSS / JavaScript integration
 - Real-time dashboard development
 
@@ -192,7 +191,7 @@ https://github.com/ZhongYang-Liu
 
 # 🖥 伺服器監控儀表板 (Server Monitoring Dashboard)
 
-一套基於 **Python**、**Flask** 與 **Chart.js** 開發的即時伺服器監控系統，透過互動式網頁介面監控 CPU、Memory 與 Disk 使用狀況。
+一套基於 **Python**、**Flask** 開發的即時伺服器監控系統，透過互動式網頁介面監控 CPU、Memory 與 Disk 使用狀況。
 
 ---
 
@@ -358,7 +357,6 @@ http://127.0.0.1:5000
 * Flask Web 後端開發
 * RESTful API 串接與設計
 * 使用 psutil 進行系統資源監控
-* 使用 Chart.js 進行資料視覺化
 * HTML / CSS / JavaScript 前後端整合
 * 即時 Dashboard 開發
 
