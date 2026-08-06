@@ -6,7 +6,8 @@ A real-time server monitoring dashboard built with **Python**, **Flask**, and **
 
 ## 📸 Dashboard Preview
 
-> **(Add your dashboard screenshot here)**
+<img width="1753" height="907" alt="image" src="https://github.com/user-attachments/assets/7d3bfc54-b458-40dd-97b4-a631795fb529" />
+
 
 ```markdown
 ![Dashboard](screenshots/dashboard.png)
